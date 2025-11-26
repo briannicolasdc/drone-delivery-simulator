@@ -9,6 +9,18 @@ Uma simulação baseada na web de um sistema de entrega por drones. Gerencie ped
 - **Rastreamento de Status**: Quadro estilo Kanban para acompanhar o status do pedido (Pendente, A Caminho, Entregue).
 - **Simulação**: Consumo de bateria realista e física de movimento.
 
+## Tecnologias Utilizadas
+
+### Frontend
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário. Utilizado para gerenciamento de estado da simulação e renderização eficiente dos componentes.
+- **Styled Components**: Biblioteca para estilização CSS-in-JS. Utilizado para criar componentes estilizados com escopo definido, facilitando a manutenção e evitando conflitos de classes.
+- **Axios**: Cliente HTTP baseado em Promises. Utilizado para realizar requisições à API do backend de forma simples e intuitiva.
+
+### Backend
+- **Node.js**: Ambiente de execução JavaScript server-side. Permite utilizar a mesma linguagem no frontend e backend, unificando o desenvolvimento.
+- **Express**: Framework web rápido e minimalista para Node.js. Utilizado para criar a API RESTful que gerencia pedidos, drones e rotas.
+- **Jest**: Framework de testes em JavaScript. Utilizado para garantir a qualidade e corretude da lógica de negócios e cálculo de rotas.
+
 ## Pré-requisitos
 - Node.js (v14 ou superior)
 - npm (Gerenciador de Pacotes do Node)
