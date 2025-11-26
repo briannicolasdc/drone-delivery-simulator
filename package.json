@@ -1,0 +1,14 @@
+{
+    "name": "drone-delivery-simulator",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "backend",
+        "frontend"
+    ],
+    "scripts": {
+        "start": "npm run start --workspaces",
+        "test": "npm run test --workspaces",
+        "format": "npm run format --workspaces"
+    }
+}
